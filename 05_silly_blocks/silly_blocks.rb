@@ -4,4 +4,6 @@ def reverser
 	reversed_words.join(" ")
 end
 
-
+def adder(*num)
+	yield + 1
+end
