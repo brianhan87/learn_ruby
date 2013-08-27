@@ -1,7 +1,9 @@
 require "simon_says"
 
-# By now we should be getting better at reading tests. We should able to see 
-# what methods will need to be defined and what they need to return.
+# By now we should be getting better at reading tests. 
+# We should able to see 
+# what methods will need to be defined and what 
+# they need to return.
 
 describe "Simon says" do
   describe "echo" do
@@ -40,8 +42,10 @@ describe "Simon says" do
     #   # your code here
     # end
     #
-    # The important part is num = 1. What happens is if a num isn't given,
-    # then num will fallback on 1, i.e. it has a default value of 1.
+    # The important part is num = 1. 
+    # What happens is if a num isn't given,
+    # then num will fallback on 1, 
+    # i.e. it has a default value of 1.
     it "should repeat a number of times" do
       repeat("hello", 3).should == "hello hello hello"
     end
