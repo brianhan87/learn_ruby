@@ -4,6 +4,16 @@ def reverser
 	reversed_words.join(" ")
 end
 
-def adder(*num)
-	yield + 1
+def adder(num=0)
+	if num == 0
+		yield + 1
+	else
+		yield + 3
+	end
+end
+
+def repeater num = 1
+	num.times do
+		yield
+	end
 end
